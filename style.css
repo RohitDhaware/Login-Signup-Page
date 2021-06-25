@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+html,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+  place-items:center;
+  background-color: rgb(169, 197, 209);
+}
+
+.header {
+	text-align: center;
+	padding-top: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgb(44, 43, 43);
+}
+
+.header h4 {
+	color: #333;
+	font-size: 17px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.main_div{
+  width: 100%;
+  max-width: 365px;
+  background: rgb(151, 176, 189);
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.main_div .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.main_div .account{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.account a{
+  display: block;
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+.account a span{
+  margin-left: 5px;
+  font-size: 18px;
+}
+.account a:first-child{
+  margin-right: 5px;
+  background-color: rgb(66, 19, 110);
+}
+.account a:first-child:hover{
+  background-color: rgb(12, 1, 24);
+}
+.account a:last-child{
+  margin-left: 5px;
+  background-color: rgb(66, 19, 110);
+}
+.account a:last-child:hover{
+  background-color: rgb(12, 1, 24);
+}
+form {
+  margin-top: 25px;
+}
